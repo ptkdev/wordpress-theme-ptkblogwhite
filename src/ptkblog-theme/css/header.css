@@ -1,0 +1,104 @@
+#header_line{
+	background-image: url("./../img/desktop/header_line_blue.png"); 
+	background-repeat: repeat-x; 
+	width: 100%;
+	height: 16px; 
+	clear: both;
+}
+
+#menu_line{
+	background-image: url("./../img/desktop/menu_line.png"); 
+	background-repeat: repeat-x; 
+	width: 100%;
+	height: 6px;
+	z-index: 1;
+	clear: both;
+}
+
+#menu{
+	font-family: Arial,"Verdana"; 
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	margin-top: 5px;
+	padding-left: 5%;
+	padding-right: 3%;
+}
+
+
+#logo{
+}
+
+.logo_separator{
+	background-image: url("./../img/desktop/logo_separator.png"); 
+	background-repeat: no-repeat; 
+	width: 3px;
+	height: 31px; 
+	margin-left: 5px;
+	margin-right: 5px;
+	float: left;
+}
+
+.logo_font1{
+	font-family: "DejaVu Sans","Sans Serif",Verdana; 
+	font-size: 24px;
+	color: #2E7FBE;
+	float: left;
+	margin-left: 30px;
+}
+
+.logo_font2{
+	font-family: "DejaVu Sans","Sans Serif",Verdana; 
+	font-size: 24px;
+	color: #5A5A5A;
+	float: left;
+}
+
+.logo_font3{
+	font-family: "DejaVu Sans","Sans Serif",Verdana; 
+	font-size: 18px;
+	color: #BCBCBC;
+	float: left;
+	padding-top: 4px;
+}
+
+.menu_line{
+	background-color: #1C83CE;
+	float: right;
+	margin-right: 10px;
+	margin-bottom: -3px;
+	z-index: 0;
+}
+
+.menu_line_sx{
+	background-color: #1C83CE;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: -3px;
+	z-index: 0;
+}
+
+.menu_line_type1:hover{
+	background-color: #1C83CE; /* blu */
+}
+
+.menu_line_type2:hover{
+	background-color: #330066; /* viola */
+}
+
+.menu_line_type3:hover{
+	background-color: #CC0000; /* rosso */
+}
+
+.menu_line_type4:hover{
+	background-color: #009900; /* verde */
+}
+
+.menu_txt{
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+.height4{
+	height: 4px;
+}

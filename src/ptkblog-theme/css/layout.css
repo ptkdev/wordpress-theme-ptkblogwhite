@@ -1,0 +1,40 @@
+html,body{
+	min-width: 980px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+img {
+	border: 0;
+}
+
+table{
+	border: 0;
+}
+
+
+ul{
+	list-style-type: none;
+	list-style-image: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+li {
+	padding-left: -20px;
+}
+
+embed {
+	width: 600px;
+	height: 450px;
+}
+
+object {
+	width: 600px;
+	height: 450px;
+}
+/*
+@font-face {
+  font-family: Droid;
+  src: local('Droid'), url("./") format("truetype");
+}*/

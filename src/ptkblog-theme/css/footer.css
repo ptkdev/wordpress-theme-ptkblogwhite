@@ -1,0 +1,49 @@
+.footer_line{
+	background-color: #1C83CE;
+	margin-right: 4%;
+	margin-left: 4%;
+	height: 5px;
+	z-index: 1;
+}
+
+#footer_line{
+	background-image: url("./../img/desktop/menu_line.png"); 
+	background-repeat: repeat-x; 
+	width: 100%;
+	height: 6px;
+	z-index: 0;
+	margin-bottom: 10px;
+	clear: both;
+}
+
+#footer{
+	text-align: center;
+	width: 100%;
+	clear: both;
+}
+
+
+.footer_font1{
+	font-family: "DejaVu Sans","Sans Serif",Verdana; 
+	font-size: 13px;
+	color: #2E7FBE;
+	text-align: center;
+	font-weight:bold;
+}
+
+.footer_font2{
+	font-family: "DejaVu Sans","Sans Serif",Verdana; 
+	font-size: 12px;
+	color: #5A5A5A;
+	text-align: center;
+	font-weight:bold;
+}
+
+.switch_page{
+	font-family: "DejaVu Sans","Sans Serif",Verdana; 
+	font-size: 12px;
+	color: #5A5A5A;
+	text-align: center;
+	font-weight:bold;
+	clear: both;
+}

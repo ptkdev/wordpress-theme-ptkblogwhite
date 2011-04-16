@@ -1,0 +1,41 @@
+=================== 0.7 ===================
+~ Rengine Del Codice
+~ Minor Fix
+
+=================== 0.6 ===================
+~ Sorgente App Android (Per Eclipse + SDK Android)*
+~ Supporto Flash/Js Per la app android
+~ APK Android Del Mio Blog (che trovate anche sul market)
+~ Fix Minori
+
+=================== 0.5 ===================
+~ Layout a 998px
+~ Fix visualizzazione su Opera Browser
+~ Fix Layout CSS (Float Tags)
+~ Fix Minori
+~ Tolta la pubblicità (dal mio blog)
+
+=================== 0.4 ===================
+~ Pulito il codice 
+~ Aggiornato riconoscimento versione mobile
+~ Aggiornato il layout
+~ Aggiornate le immagini
+~ Tema multi-colore (nel css i colori e nella cartella /img/desktop)
+~ Fix CSS
+~ Fix HTML5
+~ Aggiornamenti minori  
+
+=================== 0.3 HotFix ===================
+~ Pulito il codice
+~ Fix Minori
+~ Fix riconoscimento versione mobile (Bug trovato da: Gusions)
+
+=================== 0.2 ===================
+~ Fix Versione Mobile
+~ Fix Riconoscimento Dispositivi Mobili
+~ Risoluzione minima el sito cambiata da 600px a 990px
+~ Fix immagini nei post con «float: left»
+~ Fix Minori 
+
+=================== 0.1 ===================
+~ Initial release
