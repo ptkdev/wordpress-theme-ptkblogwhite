@@ -36,7 +36,7 @@
 			<?php the_content(); ?>
 			<div class="content_small">
 				<?php if(!is_page()) { ?>
-				<b>Tags:</b> <?php the_tags(""," &bullet; "," "); ?><br /><br />
+				<b>Tags:</b> <?php the_tags(""," • "," "); ?><br /><br />
 				<?php } ?>
 				<br /><div class="author">Scritto il <?php the_time('j/m/Y'); ?> da: <a class="author" href="<?php the_author_url(); ?>"><?php the_author_nickname(); ?></a> | <a class="author" href="<?php the_permalink() ?>#comments">Commenta</a></div>
 			</div><br />
