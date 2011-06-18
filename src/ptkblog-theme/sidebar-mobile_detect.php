@@ -1,34 +1,10 @@
-<?php 
-/*
- *	PTKDev Blog - Wordpress Theme
- *		Copyright (C) 2011  PTKDev
- *
- *		This program is free software: you can redistribute it and/or modify
- *		it under the terms of the GNU General Public License as published by
- *		the Free Software Foundation, either version 3 of the License, or
- *		(at your option) any later version.
- *
- *		This program is distributed in the hope that it will be useful,
- *		but WITHOUT ANY WARRANTY; without even the implied warranty of
- *		MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *		GNU General Public License for more details.
- *
- *		You should have received a copy of the GNU General Public License
- *		along with this program.  If not, see <http://www.gnu.org/licenses/>.
- *
- *
- *		Author: Patryk Rzucidlo (PTKDev)
- *		Twitter: @ptkdev
- *		WebSite: http://www.ptkdev.it/
- * 		IRC: chat.freenode.net at #ptkdev
- */
-
+<?php
 /**
  * Mobile Detect
  *
  * @license    http://www.opensource.org/licenses/mit-license.php The MIT License
  * @version    SVN: $Id: Mobile_Detect.php 3 2009-05-21 13:06:28Z vic.stanciu $
- * @Download http://code.google.com/p/php-mobile-detect/downloads/list
+ * @Download   http://code.google.com/p/php-mobile-detect/downloads/list
  */
 
 class Mobile_Detect {
@@ -44,7 +20,7 @@ class Mobile_Detect {
     protected $isWindows    = null;
     protected $isGeneric    = null;
 
-	// @tuo_nick fixed all devices
+	// @ptkdev fixed all devices
     protected $devices = array(
         "android"       => "android",
         "blackberry"    => "blackberry",

@@ -1,43 +1,43 @@
 <?php 
 /*
- *	PTKDev Blog - Wordpress Theme
- *		Copyright (C) 2011  PTKDev
+ * PTKDevBlog (Wordpress Theme)
+ *   Copyright (C) 2011  PTKDev
  *
- *		This program is free software: you can redistribute it and/or modify
- *		it under the terms of the GNU General Public License as published by
- *		the Free Software Foundation, either version 3 of the License, or
- *		(at your option) any later version.
- *
- *		This program is distributed in the hope that it will be useful,
- *		but WITHOUT ANY WARRANTY; without even the implied warranty of
- *		MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *		GNU General Public License for more details.
- *
- *		You should have received a copy of the GNU General Public License
- *		along with this program.  If not, see <http://www.gnu.org/licenses/>.
- *
- *
- *		Author: Patryk Rzucidlo (PTKDev)
- *		Twitter: @ptkdev
- *		WebSite: http://www.ptkdev.it/
- * 		IRC: chat.freenode.net at #ptkdev
- */
-?>	
-
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU Affero General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *  
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU Affero General Public License for more details.
+ *  
+ *  You should have received a copy of the GNU Affero General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ * 
+*/
+?>
 <!DOCTYPE html> 
 <html dir="ltr" lang="it-IT"> 
 <head> 
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<title><?php wp_title(''); ?> <?php if(wp_title(' ', false)) { echo '&laquo;'; } ?> <?php bloginfo('name'); ?></title>
 	<meta name="generator" content="Geany IDE" />
-	<meta name="author" content="PTKDev - http://www.ptkdev.it/" />
+	<meta name="author" content="Patryk Rzucidlo" />
 	<meta name="copyright" content="Creative Commons IT" />
 	<meta name="distribution" content="global" />
+	<meta name="author-mail" content="ptkdev[at]gmail[dot]com" />
+	<meta name="author-msn" content="ptkdev[at]gmail[dot]com" />
+	<meta name="author-skype" content="ptkdev" />
+	<meta name="author-gadu_gadu" content="2825253" />
+	<meta name="author-phone_wind" content="+39 3281759093" />
 	<meta name="robots" content="index,follow" />
 	<meta name="revisit-after" content="3 days" />
 	<meta name="rating" content="general" />
 	<meta name="language" content="it" />
-	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> - Feed RSS" href="http://feeds.feedburner.com/tuo_nick" />
+	<meta name="google-site-verification" content="DXFk9SpcypfhF_hUfRxQ7kxd6Y8Pd2HPY0s4T_3RSUk" />
+	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> - Feed RSS" href="http://feeds.feedburner.com/ptkdevblog" />
 	<link rel="shortcut icon" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/favicon.ico" />
 	<link rel="icon" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/favicon.png" type="image/png" />
 	<link rel="icon" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/favicon.ico" type="image/ico" />
@@ -64,8 +64,8 @@
 <div id="header_line"></div>
 <div id="logo">
 	<a class="title_blog" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/">
-		<div class="logo_font1">TUO</div> 
-		<div class="logo_font2">NOME</div>
+		<div class="logo_font1">Patryk</div> 
+		<div class="logo_font2">Rzucidlo</div>
 		<div class="logo_separator"></div>
 		<div class="logo_font3">~ Blog</div>
 	</a>

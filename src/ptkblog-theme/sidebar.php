@@ -1,46 +1,41 @@
 <?php 
 /*
- *	PTKDev Blog - Wordpress Theme
- *		Copyright (C) 2011  PTKDev
+ * PTKDevBlog (Wordpress Theme)
+ *   Copyright (C) 2011  PTKDev
  *
- *		This program is free software: you can redistribute it and/or modify
- *		it under the terms of the GNU General Public License as published by
- *		the Free Software Foundation, either version 3 of the License, or
- *		(at your option) any later version.
- *
- *		This program is distributed in the hope that it will be useful,
- *		but WITHOUT ANY WARRANTY; without even the implied warranty of
- *		MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *		GNU General Public License for more details.
- *
- *		You should have received a copy of the GNU General Public License
- *		along with this program.  If not, see <http://www.gnu.org/licenses/>.
- *
- *
- *		Author: Patryk Rzucidlo (PTKDev)
- *		Twitter: @ptkdev
- *		WebSite: http://www.ptkdev.it/
- * 		IRC: chat.freenode.net at #ptkdev
- */
-?>	
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU Affero General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *  
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU Affero General Public License for more details.
+ *  
+ *  You should have received a copy of the GNU Affero General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ * 
+*/
+?>
 
 <div id="container">
 	<div id="sidebar">
 		<div class="sidebar_txt">
 			&nbsp;&nbsp;<a class="menu" href="javascript:void(0);">SOCIAL</a>&nbsp;&nbsp;
 		</div><div class="sid_line"></div>
-			<a href="http://www.facebook.com/tuo_nick"><img src="<?php bloginfo('template_url'); ?>/img/desktop/fb.png" title="Patryk Rzucidlo Facebook" alt="Patryk Rzucidlo Facebook" /></a>
-			<a href="http://twitter.com/tuo_nick"><img src="<?php bloginfo('template_url'); ?>/img/desktop/tw.png" title="Patryk Rzucidlo Twitter" alt="Patryk Rzucidlo Twitter" /></a>
-			<a href="http://www.google.com/profiles/tuo_nick"><img src="<?php bloginfo('template_url'); ?>/img/desktop/google.png" title="Patryk Rzucidlo Google Profile" alt="Patryk Rzucidlo Google Profile" /></a>
-			<a href="http://www.youtube.com/user/tuo_nick"><img src="<?php bloginfo('template_url'); ?>/img/desktop/yt.png" title="Patryk Rzucidlo YouTube" alt="Patryk Rzucidlo YouTube" /></a>
-			<a href="http://feeds.feedburner.com/tuo_nick"><img src="<?php bloginfo('template_url'); ?>/img/desktop/rss.png" title="Blog RSS" alt="Blog RSS" /></a>
+			<a href="http://www.facebook.com/ptkdev"><img src="<?php bloginfo('template_url'); ?>/img/desktop/fb.png" title="Patryk Rzucidlo Facebook" alt="Patryk Rzucidlo Facebook" /></a>
+			<a href="http://twitter.com/ptkdev"><img src="<?php bloginfo('template_url'); ?>/img/desktop/tw.png" title="Patryk Rzucidlo Twitter" alt="Patryk Rzucidlo Twitter" /></a>
+			<a href="http://www.google.com/profiles/ptkdev"><img src="<?php bloginfo('template_url'); ?>/img/desktop/google.png" title="Patryk Rzucidlo Google Profile" alt="Patryk Rzucidlo Google Profile" /></a>
+			<a href="http://www.youtube.com/user/ptkdev"><img src="<?php bloginfo('template_url'); ?>/img/desktop/yt.png" title="Patryk Rzucidlo YouTube" alt="Patryk Rzucidlo YouTube" /></a>
+			<a href="http://feeds.feedburner.com/ptkdevblog"><img src="<?php bloginfo('template_url'); ?>/img/desktop/rss.png" title="Blog RSS" alt="Blog RSS" /></a>
 			<br /><div class="height4"></div>
 		
 		<!-- sep -->
 		<div class="sidebar_txt">
 			&nbsp;&nbsp;<a class="menu" href="javascript:void(0);">ANDROID MARKET</a>&nbsp;&nbsp;
 		</div><div class="sid_line"></div>
-				<a href="https://market.android.com/details?id=blog.tuo_nick"><img src="<?php bloginfo('template_url'); ?>/img/desktop/available_on_android_market.png" title="tuo_nick Blog App Android" alt="tuo_nick Blog App Android" /></a><br />
+				<a href="https://market.android.com/details?id=blog.ptkdev"><img src="<?php bloginfo('template_url'); ?>/img/desktop/available_on_android_market.png" title="PTKDev Blog App Android" alt="PTKDev Blog App Android" /></a><br />
 		
 		<!-- sep -->
 		<div class="sidebar_txt">
@@ -51,7 +46,15 @@
 					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/">Home:</a></li> 
 					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/chi-sono/">&raquo; Chi Sono</a></li> 
 					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/contatti/">&raquo; Contatti</a></li> 
-					<li class="cat-item"><a href="http://labs.tuo_nick.it/">&raquo; My Labs</a></li> 
+					<li class="cat-item"><br /></li> 
+					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/">My Labs:</a></li> 
+					<li class="cat-item"><a href="https://github.com/PTKDev/ClientTwitter-TwitCrusader">&raquo; GitHub/TwitCrusader</a></li> 
+					<li class="cat-item"><a href="https://github.com/PTKDev/ClientBlog-gWriter">&raquo; GitHub/gWriterBlog</a></li> 
+					<li class="cat-item"><a href="https://github.com/PTKDev/Scheme-GeanyBlack">&raquo; GitHub/Geany-Black-Scheme</a></li> 
+					<li class="cat-item"><a href="https://github.com/PTKDev/WordpressTheme-PTKDevBlog">&raquo; GitHub/WP-Theme PTKDevBlog</a></li> 
+					<li class="cat-item"><a href="https://github.com/PTKDev/WordpressTheme-TwitCrusader">&raquo; GitHub/WP-Theme TwitCrusader</a></li> 
+					<li class="cat-item"><a href="https://github.com/PTKDev/WordpressTheme-gWriter">&raquo; GitHub/WP-Theme gWriterBlog</a></li> 
+					<li class="cat-item"><a href="https://github.com/PTKDev/AndroidAPP-PTKDevBlog">&raquo; GitHub/APP-Android PTKDevBlog</a></li>  
 					<li class="cat-item"><br /></li> 
 					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/">I Miei Post:</a></li> 
 					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/linux/">&raquo; Linux</a></li> 
@@ -70,7 +73,7 @@
 		
 		<!-- sep -->	
 		<div class="sidebar_txt">
-			&nbsp;&nbsp;<a class="menu" href="http://twitter.com/tuo_nick">TWITTER</a>&nbsp;&nbsp;
+			&nbsp;&nbsp;<a class="menu" href="http://twitter.com/ptkdev">TWITTER</a>&nbsp;&nbsp;
 		</div><div class="sid_line"></div>
 			<div class="twitter">
 				<script src="http://widgets.twimg.com/j/2/widget.js"></script>
@@ -102,7 +105,7 @@
 					avatars: true,
 					behavior: 'all'
 				  }
-				}).render().setUser('tuo_nick').start();
+				}).render().setUser('ptkdev').start();
 				</script>
 			</div><br />
 		
@@ -110,7 +113,7 @@
 		<div class="sidebar_txt">
 			&nbsp;&nbsp;<a class="menu" href="javascript:void(0);">LATITUDE</a>&nbsp;&nbsp;
 		</div><div class="sid_line"></div>
-			<iframe src="http://www.google.com/latitude/apps/badge/api?user=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&amp;type=iframe&amp;maptype=roadmap&amp;hl=it" class="iframe"></iframe><br />
+			<iframe src="http://www.google.com/latitude/apps/badge/api?user=-6976504855383486339&amp;type=iframe&amp;maptype=roadmap&amp;hl=it" class="iframe"></iframe><br />
 		
 		<!-- sep -->
 		<div class="sidebar_txt">
