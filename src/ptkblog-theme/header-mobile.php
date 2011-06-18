@@ -23,20 +23,25 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<title><?php wp_title(''); ?> <?php if(wp_title(' ', false)) { echo '&laquo;'; } ?> <?php bloginfo('name'); ?></title>
-	<meta name="generator" content="Geany IDE" />
+	
 	<meta name="author" content="Patryk Rzucidlo" />
-	<meta name="copyright" content="Creative Commons IT" />
-	<meta name="distribution" content="global" />
+	<meta name="generator" content="Geany IDE" />
 	<meta name="author-mail" content="ptkdev[at]gmail[dot]com" />
 	<meta name="author-msn" content="ptkdev[at]gmail[dot]com" />
 	<meta name="author-skype" content="ptkdev" />
 	<meta name="author-gadu_gadu" content="2825253" />
 	<meta name="author-phone_wind" content="+39 3281759093" />
+	
+	<meta name="copyright" content="GNU Affero General Public License" />
+	<meta name="source-code" content="https://github.com/PTKDev/WordpressTheme-PTKDevBlog" />
+	
+	<meta name="distribution" content="global" />
 	<meta name="robots" content="index,follow" />
 	<meta name="revisit-after" content="3 days" />
 	<meta name="rating" content="general" />
 	<meta name="language" content="it" />
 	<meta name="google-site-verification" content="DXFk9SpcypfhF_hUfRxQ7kxd6Y8Pd2HPY0s4T_3RSUk" />
+	
 	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> - Feed RSS" href="http://feeds.feedburner.com/ptkdevblog" />
 	<link rel="shortcut icon" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/favicon.ico" />
 	<link rel="icon" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/favicon.png" type="image/png" />
