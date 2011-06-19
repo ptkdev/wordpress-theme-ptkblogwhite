@@ -23,12 +23,15 @@
 <head> 
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<title><?php wp_title(''); ?> <?php if(wp_title(' ', false)) { echo '&laquo;'; } ?> <?php bloginfo('name'); ?></title>
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<meta name="generator" content="Geany IDE" />
 	
 	<meta name="author" content="Patryk Rzucidlo" />
-	<meta name="generator" content="Geany IDE" />
 	<meta name="author-mail" content="ptkdev[at]gmail[dot]com" />
 	<meta name="author-msn" content="ptkdev[at]gmail[dot]com" />
 	<meta name="author-skype" content="ptkdev" />
+	<meta name="author-twitter" content="@PTKDev" />
+	<meta name="author-irc" content="chat.freenode.net #ptkdev" />
 	<meta name="author-gadu_gadu" content="2825253" />
 	<meta name="author-phone_wind" content="+39 3281759093" />
 	
@@ -42,6 +45,7 @@
 	<meta name="language" content="it" />
 	<meta name="google-site-verification" content="DXFk9SpcypfhF_hUfRxQ7kxd6Y8Pd2HPY0s4T_3RSUk" />
 	
+	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> - Feed RSS" href="http://feeds.feedburner.com/ptkdevblog" />
 	<link rel="shortcut icon" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/favicon.ico" />
 	<link rel="icon" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/favicon.png" type="image/png" />
@@ -53,7 +57,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/body.css" />
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/footer.css" />
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/link.css" />
-	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+	
 	<link href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/wp-content/plugins/lightbox/css/lightbox.css" rel="stylesheet" type="text/css" media="screen" /> 
 	
 	<script src="http://<?php echo $_SERVER['SERVER_NAME']; ?>/wp-content/plugins/lightbox/js/prototype.js" type="text/javascript"></script> 
