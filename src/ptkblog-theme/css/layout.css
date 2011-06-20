@@ -52,8 +52,16 @@ object {
 	width: 600px;
 	height: 450px;
 }
-/*
+
 @font-face {
-  font-family: Droid;
-  src: local('Droid'), url("./") format("truetype");
-}*/
+        font-family: DejaVuSans_Import;
+        font-style: normal;
+        src: url("./font/DejaVuSans.ttf") format("truetype");
+}
+
+@font-face {
+        font-family: DejaVuSansBold_Import;
+        font-style: normal;
+        font-weight: bold;
+        src: url("./font/DejaVuSans-Bold.ttf") format("truetype");
+}

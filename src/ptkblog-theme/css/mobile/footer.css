@@ -43,7 +43,7 @@
 
 
 .footer_font1{
-	font-family: "DejaVu Sans","Sans Serif",Verdana; 
+	font-family: "DejaVu Sans", DejaVuSansBold_Import,"Sans Serif",Verdana; 
 	font-size: 13px;
 	color: #2E7FBE;
 	text-align: center;
@@ -51,7 +51,7 @@
 }
 
 .footer_font2{
-	font-family: "DejaVu Sans","Sans Serif",Verdana; 
+	font-family: "DejaVu Sans", DejaVuSansBold_Import,"Sans Serif",Verdana; 
 	font-size: 12px;
 	color: #5A5A5A;
 	text-align: center;
@@ -59,7 +59,7 @@
 }
 
 .switch_page{
-	font-family: "DejaVu Sans","Sans Serif",Verdana; 
+	font-family: "DejaVu Sans", DejaVuSansBold_Import,"Sans Serif",Verdana; 
 	font-size: 12px;
 	color: #5A5A5A;
 	text-align: center;

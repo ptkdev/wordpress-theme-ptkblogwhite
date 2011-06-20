@@ -82,7 +82,7 @@ a.menu:link{
 }
 
 a.title_post:link, a.title_post:visited, a.title_post:hover, a.title_post:active, a.title_post:focus{
-	font-family: "DejaVu Sans","Sans Serif",Verdana; 
+	font-family: "DejaVu Sans", DejaVuSans_Import,"Sans Serif",Verdana; 
 	font-size: 20px;
 	color: #1C83CE;
 }
@@ -104,7 +104,7 @@ a.title_post:link{
 }
 
 a.author:link, a.author:visited, a.author:hover, a.author:active, a.author:focus{
-	font-family: "DejaVu Sans","Sans Serif",Verdana; 
+	font-family: "DejaVu Sans", DejaVuSansBold_Import,"Sans Serif",Verdana; 
 	font-weight: bold;
 	color: #5A5A5A;
 }
@@ -126,7 +126,7 @@ a.author:link{
 }
 
 a.comments-link:link, a.comments-link:visited, a.comments-link:hover, a.comments-link:active, a.comments-link:focus{
-	font-family: "DejaVu Sans","Sans Serif",Verdana; 
+	font-family: "DejaVu Sans", DejaVuSansBold_Import,"Sans Serif",Verdana; 
 	font-weight: bold;
 	color: #5A5A5A;
 }

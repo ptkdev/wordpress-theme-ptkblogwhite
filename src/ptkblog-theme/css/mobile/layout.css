@@ -18,9 +18,8 @@
 */
 
 html,body{
-	max-width: 800px;
-	min-width: 240px;
 	width: 100%;
+	min-width: 240px;
 	margin: 0 auto;
 	text-align: left;
 }
@@ -39,8 +38,16 @@ object {
 	width: 99%;
 	height: 280px;
 }
-/*
+
 @font-face {
-  font-family: Droid;
-  src: local('Droid'), url("./") format("truetype");
-}*/
+        font-family: DejaVuSans_Import;
+        font-style: normal;
+        src: url("./../font/DejaVuSans.ttf") format("truetype");
+}
+
+@font-face {
+        font-family: DejaVuSansBold_Import;
+        font-style: normal;
+        font-weight: bold;
+        src: url("./../font/DejaVuSans-Bold.ttf") format("truetype");
+}

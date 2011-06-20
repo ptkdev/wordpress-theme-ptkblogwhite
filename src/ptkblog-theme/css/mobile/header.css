@@ -58,7 +58,7 @@
 }
 
 .logo_font1{
-	font-family: "DejaVu Sans","Sans Serif",Verdana; 
+	font-family: "DejaVu Sans", DejaVuSans_Import,"Sans Serif",Verdana; 
 	font-size: 24px;
 	color: #2E7FBE;
 	float: left;
@@ -66,14 +66,14 @@
 }
 
 .logo_font2{
-	font-family: "DejaVu Sans","Sans Serif",Verdana; 
+	font-family: "DejaVu Sans", DejaVuSans_Import,"Sans Serif",Verdana; 
 	font-size: 24px;
 	color: #5A5A5A;
 	float: left;
 }
 
 .logo_font3{
-	font-family: "DejaVu Sans","Sans Serif",Verdana; 
+	font-family: "DejaVu Sans", DejaVuSans_Import,"Sans Serif",Verdana; 
 	font-size: 18px;
 	color: #BCBCBC;
 	float: left;
