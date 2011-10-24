@@ -41,7 +41,7 @@
 	  })();
 
 	</script>
-	<a href="https://github.com/PTKDev/"><img style="position: absolute; top: 0; right: 0; border: 0; z-index: 10;" src="<?php bloginfo('template_url'); ?>/img/desktop/forkme_github.png" alt="Fork me on GitHub"></a>
+	<a href="https://github.com/PTKDev/"><img style="position: absolute; top: 0; right: 0; border: 0; z-index: 5;" src="<?php bloginfo('template_url'); ?>/img/desktop/forkme_github.png" alt="Fork me on GitHub"></a>
 	<?php wp_footer(); ?>
 </body>
 </html>
