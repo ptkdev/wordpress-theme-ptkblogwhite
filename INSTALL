@@ -1,9 +1,11 @@
-/**** INSTALL ****/
-1) Copy /src content to your wp-content/themes wordpress-folder
-2) Upload all file with FTP
-3) Select theme at wp-admin control panel
+How to Install
+	- Copy /src content to your wp-content/themes wordpress-folder
+	- Upload all file with FTP
+	- Select theme at wp-admin control panel
 
 
-/**** SUPPORT ****/
-IRC: chat.freenode.net at #ptkdev
-
+Support
+	You can find us on this web source:
+	WebSite: http://www.ptkdev.it/
+	Source: https://github.com/PTKDev/
+	IRC: chat.freenode.net at #ptkdev
