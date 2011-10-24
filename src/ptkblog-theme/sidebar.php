@@ -54,8 +54,8 @@
 					<li class="cat-item"><a href="https://github.com/PTKDev/WordpressTheme-PTKTheBestBlog">&raquo; GitHub/WP-Theme PTKTheBestBlog</a></li> 
 					<li class="cat-item"><a href="https://github.com/PTKDev/WordpressTheme-TwitCrusader">&raquo; GitHub/WP-Theme TwitCrusader</a></li> 
 					<li class="cat-item"><a href="https://github.com/PTKDev/WordpressTheme-gWriter">&raquo; GitHub/WP-Theme gWriterBlog</a></li> 
-					<li class="cat-item"><a href="https://github.com/PTKDev/WordpressTheme-PatrykWeb2006">&raquo; GitHub/WP-Theme PatrykWeb2006 (Official)</a></li> 
-					<li class="cat-item"><a href="https://github.com/PTKDev/WordpressTheme-PatrykWeb2009Black">&raquo; GitHub/WP-Theme PatrykWeb2009 (UnOfficial)</a></li>
+					<li class="cat-item"><a href="https://github.com/PTKDev/WordpressTheme-PatrykWeb2006">&raquo; GitHub/WP-Theme PatrykWeb2006 (Original)</a></li> 
+					<li class="cat-item"><a href="https://github.com/PTKDev/WordpressTheme-PatrykWeb2009Black">&raquo; GitHub/WP-Theme PatrykWeb2009 Black</a></li>
 					<li class="cat-item"><a href="https://github.com/PTKDev/Interface-UbuntuZillaGraphic">&raquo; GitHub/Interface UbuntuZillaGraphic</a></li>  
 					<li class="cat-item"><a href="https://github.com/PTKDev/AndroidAPP-PTKDevBlog">&raquo; GitHub/APP-Android PTKDevBlog</a></li>
 					<li class="cat-item"><a href="https://github.com/PTKDev/Scheme-GeanyBlack">&raquo; GitHub/Scheme Geany-Black</a></li>   
