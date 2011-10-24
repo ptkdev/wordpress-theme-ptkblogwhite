@@ -133,5 +133,9 @@
 			&nbsp;&nbsp;<a class="menu" href="javascript:void(0);">VALIDATOR</a>&nbsp;&nbsp;
 		</div><div class="sid_line"></div>
 			<a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/sitemap.xml"><img src="<?php bloginfo('template_url'); ?>/img/desktop/sitemap.png" title="SiteMap" alt="SiteMap" /></a>
+			<a href="http://www.w3.org/TR/html5/"><img src="<?php bloginfo('template_url'); ?>/img/desktop/html5.png" title="HTML5" alt="HTML5" /></a>
+			<a href="http://www.opensource.org/"><img src="<?php bloginfo('template_url'); ?>/img/desktop/opensource.png" title="OpenSource" alt="OpenSource" /></a>
+			<a href="http://github.com/"><img src="<?php bloginfo('template_url'); ?>/img/desktop/github.png" title="GitHub" alt="GitHub" /></a>
+			<a href="http://www.kernel.org"><img src="<?php bloginfo('template_url'); ?>/img/desktop/linux.png" title="Kernel Linux" alt="Kernel Linux" /></a>
 	</div>
 
