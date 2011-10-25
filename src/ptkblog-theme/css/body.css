@@ -23,22 +23,23 @@
 }
 
 #content{
-	font-family: "Verdana","Sans Serif","OpenSymbol"; 
-	font-size: 14px;
+	/*font-family: "Georgia", "Verdana","Sans Serif","OpenSymbol"; */
+	font-family: "DejaVu Sans", DejaVuSans_Import,"Sans Serif",Verdana; 
+	font-size: 15px;
 	color: #000000;
 	border-width: 0px 1px 0px 0px;
 	border-style: solid;
 	border-color: #D8D8D8;
-	margin-top: 16px;
+	margin-top: 14px;
 	padding-right: 10px;
 	margin-bottom: 15px;
 	width: 600px;
-	text-align: justify;
+	/* text-align: justify; */
 	z-index: 1;
 }
 
 #sidebar{
-	font-family: "Verdana","Sans Serif","OpenSymbol"; 
+	font-family: "Georgia", "Verdana","Sans Serif","OpenSymbol"; 
 	font-size: 14px;
 	color: #000000;
 	width: 270px;
@@ -67,6 +68,11 @@
 }
 
 .content_small{
+	font-size: 11px;
+}
+
+.content_tags{
+	font-family: "Verdana","Sans Serif","OpenSymbol"; 
 	font-size: 11px;
 }
 

@@ -59,9 +59,8 @@ a.title_blog:link{
 
 
 a.menu:link, a.menu:visited, a.menu:hover, a.menu:active, a.menu:focus{
-	font-family: Arial,"Verdana"; 
-	font-size: 12px;
-	font-weight: bold;
+	font-family: "DejaVu Sans", DejaVuSans_Import,"Sans Serif",Verdana; 
+	font-size: 24px;
 	color: #000000;
 }
 

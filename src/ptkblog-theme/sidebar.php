@@ -22,7 +22,6 @@
 <div id="container">
 	<div id="sidebar">
 		<div class="sidebar_txt">
-			&nbsp;&nbsp;<a class="menu" href="javascript:void(0);">SOCIAL</a>&nbsp;&nbsp;
 		</div><div class="sid_line"></div>
 			<a href="http://www.facebook.com/ptkdev"><img src="<?php bloginfo('template_url'); ?>/img/desktop/fb.png" title="Patryk Rzucidlo Facebook" alt="Patryk Rzucidlo Facebook" /></a>
 			<a href="http://twitter.com/ptkdev"><img src="<?php bloginfo('template_url'); ?>/img/desktop/tw.png" title="Patryk Rzucidlo Twitter" alt="Patryk Rzucidlo Twitter" /></a>
@@ -33,13 +32,11 @@
 		
 		<!-- sep -->
 		<div class="sidebar_txt">
-			&nbsp;&nbsp;<a class="menu" href="javascript:void(0);">ANDROID MARKET</a>&nbsp;&nbsp;
 		</div><div class="sid_line"></div>
 				<a href="https://market.android.com/details?id=blog.ptkdev"><img src="<?php bloginfo('template_url'); ?>/img/desktop/available_on_android_market.png" title="PTKDev Blog App Android" alt="PTKDev Blog App Android" /></a><br />
 		
 		<!-- sep -->
 		<div class="sidebar_txt">
-			&nbsp;&nbsp;<a class="menu" href="javascript:void(0);">MENU</a>&nbsp;&nbsp;
 		</div><div class="sid_line"></div>
 			<div class="clear style-list">
 				<ul>
@@ -78,7 +75,6 @@
 		
 		<!-- sep -->	
 		<div class="sidebar_txt">
-			&nbsp;&nbsp;<a class="menu" href="http://twitter.com/ptkdev">TWITTER</a>&nbsp;&nbsp;
 		</div><div class="sid_line"></div>
 			<div class="twitter">
 				<script src="http://widgets.twimg.com/j/2/widget.js"></script>
@@ -116,13 +112,11 @@
 		
 		<!-- sep -->	
 		<div class="sidebar_txt">
-			&nbsp;&nbsp;<a class="menu" href="javascript:void(0);">LATITUDE</a>&nbsp;&nbsp;
 		</div><div class="sid_line"></div>
 			<iframe src="http://www.google.com/latitude/apps/badge/api?user=-6976504855383486339&amp;type=iframe&amp;maptype=roadmap&amp;hl=it" class="iframe"></iframe><br />
 		
 		<!-- sep -->
 		<div class="sidebar_txt">
-			&nbsp;&nbsp;<a class="menu" href="javascript:void(0);">BLOGROLL</a>&nbsp;&nbsp;
 		</div><div class="sid_line"></div>
 			<ul class="blogroll">
 				<?php wp_list_bookmarks('orderby=name&categorize=0&title_before=&title_after=&title_li='); ?>
@@ -130,7 +124,6 @@
 		
 		<!-- sep -->	
 		<div class="sidebar_txt">
-			&nbsp;&nbsp;<a class="menu" href="javascript:void(0);">VALIDATOR</a>&nbsp;&nbsp;
 		</div><div class="sid_line"></div>
 			<a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/sitemap.xml"><img src="<?php bloginfo('template_url'); ?>/img/desktop/sitemap.png" title="SiteMap" alt="SiteMap" /></a>
 			<a href="http://www.w3.org/TR/html5/"><img src="<?php bloginfo('template_url'); ?>/img/desktop/html5.png" title="HTML5" alt="HTML5" /></a>

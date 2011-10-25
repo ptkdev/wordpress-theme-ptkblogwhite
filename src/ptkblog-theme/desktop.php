@@ -26,7 +26,7 @@
 			</div>
 			<div class="sid_line"></div>
 			<?php the_content(); ?>
-			<div class="content_small clear_left">
+			<div class="content_tags clear_left">
 			<?php if(!is_page()) { ?>
 				<b>Tags:</b> <?php the_tags(""," &bullet; "," "); ?><br /><br />
 			<?php } ?>

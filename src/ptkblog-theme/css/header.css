@@ -44,6 +44,16 @@
 	padding-right: 3%;
 }
 
+.hello{
+	font-family: Arial,"Verdana"; 
+	font-size: 13px;
+	font-weight: bold;
+	color: #000000;
+	margin-top: 5px;
+	padding-left: 5%;
+	padding-right: 3%;
+}
+
 
 #logo{
 }

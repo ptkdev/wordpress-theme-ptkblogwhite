@@ -85,7 +85,7 @@
 <div id="menu">
 	<div class="menu_line_sx">
 		<div class="menu_txt">
-			&nbsp;&nbsp;<a class="menu" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/">Benvenuti</a>&nbsp;&nbsp;
+			&nbsp;&nbsp;<a class="hello" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/">Benvenuti</a>&nbsp;&nbsp;
 		</div>
 		<div class="height4"></div>
 	</div>
