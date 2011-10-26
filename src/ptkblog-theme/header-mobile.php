@@ -76,7 +76,13 @@
 <div id="menu">
 	<div class="menu_line">
 		<div class="menu_txt">
-			&nbsp;&nbsp;<a class="menu" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/">Home</a>&nbsp;&nbsp;
+			&nbsp;&nbsp;<a class="menu" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/chi-sono/">Chi Sono</a>&nbsp;&nbsp;
+		</div>
+		<div class="height4"></div>
+	</div>
+	<div class="menu_line">
+		<div class="menu_txt">
+			&nbsp;&nbsp;<a class="menu" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/contatti/">Contattami</a>&nbsp;&nbsp;
 		</div>
 		<div class="height4"></div>
 	</div>
