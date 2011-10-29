@@ -42,6 +42,7 @@
 				<ul>
 					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/">Home:</a></li> 
 					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/chi-sono/">&raquo; Chi Sono</a></li> 
+					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/openftp/">&raquo; OpenFTP</a></li> 
 					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/contatti/">&raquo; Contattami</a></li> 
 					<li class="cat-item"><br /></li> 
 					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/">My Labs:</a></li> 
