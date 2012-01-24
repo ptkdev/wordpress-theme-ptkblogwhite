@@ -23,7 +23,7 @@
 			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 			<div class="sidebar_line">
 				<div class="sidebar_txt">
-					&nbsp;&nbsp;<a class="menu" href="<?php the_permalink() ?>"><?php the_title(); ?></a>&nbsp;&nbsp;
+					<div class="title-margin"><a class="menu" href="<?php the_permalink() ?>"><?php the_title(); ?></a></div>
 				</div>
 				<div class="height4"></div>
 			</div>
