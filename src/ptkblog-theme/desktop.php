@@ -39,7 +39,7 @@
 			<!-- Tabella per Fix indenseDebate del layout -->
 			<table class="comments">
 				<tr>
-					<td><?php comments_template(); ?> </td>
+					<td class="comments"><?php comments_template(); ?> </td>
 				</tr>
 			</table>
 		<?php endwhile; else: endif; ?>	
