@@ -64,12 +64,12 @@
 		<div class="clear style-list">
 			<ul>
 				<li class="cat-item"><a href="#">Portoflio:</a></li> 
-				<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/">&raquo; Home Page</a></li> 
-				<li class="cat-item"><a href="http://www.ptkdev.it/">&raquo; Blog</a></li> 
-				<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/formazione/">&raquo; Formazione</li>
-				<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/esperienze-professionali/">&raquo; Esperienze Professionali</li>
-				<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/contatti/">&raquo; Contatti</a> (<a href="http://vcard.ptkdev.it/">vCard</a>)</li> 
-				<li class="cat-item"><a href="http://cv.ptkdev.it/">&raquo; Curriculum Vitae</a></li> 
+					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/">&raquo; Home Page</a></li> 
+					<li class="cat-item"><a href="http://www.ptkdev.it/">&raquo; Blog</a></li> 
+					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/capacita-e-competenze/">&raquo; Capacità e Competenze</li>
+					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/esperienze-professionali/">&raquo; Esperienze Professionali</li>
+					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/contatti/">&raquo; Contatti</a> (<a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/vcard/">vCard</a>)</li> 
+					<li class="cat-item"><a href="http://cv.ptkdev.it/">&raquo; Curriculum Vitae</a></li> 
 				<li class="cat-item"><br /></li>     
 			</ul><br />
 		</div>

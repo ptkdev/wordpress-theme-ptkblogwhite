@@ -63,29 +63,28 @@
 		</div>
 		<div class="post_separator"> <hr /></div>
 		<div class="clear style-list">
-			<ul>
-				<li class="cat-item"><a href="#">Main:</a></li> 
-				<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/">&raquo; Home Page</a></li> 
-				<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/openftp/">&raquo; OpenFTP</a></li> 
-				<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/disclaimer-del-blog/">&raquo; Disclaimer</a></li> 
-				<li class="cat-item"><br /></li> 
-				<li class="cat-item"><a href="#">Portoflio:</a></li> 
-				<li class="cat-item"><a href="http://portfolio.ptkdev.it/">&raquo; Chi Sono</a></li> 
-				<li class="cat-item"><a href="http://portfolio.ptkdev.it/contatti/">&raquo; Contatti</a> (<a href="http://vcard.ptkdev.it/">vCard</a>)</li> 
-				<li class="cat-item"><a href="http://cv.ptkdev.it/">&raquo; Curriculum Vitae</a></li> 
-				<li class="cat-item"><br /></li> 
-				<li class="cat-item"><a href="#">I Miei Post:</a></li> 
-				<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/linux/">&raquo; Linux</a></li> 
-				<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/android/">&raquo; Android</a></li> 
-				<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/developing/">&raquo; Developing</a></li> 
-				<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/tecnologia/">&raquo; Tecnologia</a></li> 
-				<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/social-network/">&raquo; SocialNetwork</a></li> 
-				<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/musicavideo/">&raquo; Musica/Video</a></li> 
-				<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/pensieri/">&raquo; Pensieri</a></li> 
-				<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/poesie/">&raquo; Poesie</a></li> 
-				<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/citazioni/">&raquo; Citazioni</a></li> 
-				<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/tanto-per-postare/">&raquo; Tanto Per Postare</a></li> 
-				<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/changelog/">&raquo; Changelog</a></li> 
+				<ul>
+					<li class="cat-item"><a href="#">Main:</a></li> 
+					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/">&raquo; Home Page</a></li> 
+					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/openftp/">&raquo; OpenFTP</a></li> 
+					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/disclaimer-del-blog/">&raquo; Disclaimer</a></li> 
+					<li class="cat-item"><br /></li> 
+					<li class="cat-item"><a href="#">Portoflio:</a></li> 
+					<li class="cat-item"><a href="http://portfolio.ptkdev.it/">&raquo; Chi Sono</a></li> 
+					<li class="cat-item"><a href="http://portfolio.ptkdev.it/contatti/">&raquo; Contatti</a> (<a href="http://portfolio.ptkdev.it/vcard/">vCard</a>)</li> 
+					<li class="cat-item"><br /></li> 
+					<li class="cat-item"><a href="#">I Miei Post:</a></li> 
+					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/linux/">&raquo; Linux</a></li> 
+					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/android/">&raquo; Android</a></li> 
+					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/developing/">&raquo; Developing</a></li> 
+					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/tecnologia/">&raquo; Tecnologia</a></li> 
+					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/social-network/">&raquo; SocialNetwork</a></li> 
+					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/musicavideo/">&raquo; Musica/Video</a></li> 
+					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/pensieri/">&raquo; Pensieri</a></li> 
+					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/poesie/">&raquo; Poesie</a></li> 
+					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/citazioni/">&raquo; Citazioni</a></li> 
+					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/tanto-per-postare/">&raquo; Tanto Per Postare</a></li> 
+					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/changelog/">&raquo; Changelog</a></li> 
 				<?php //wp_list_categories('orderby=name&title_li='); ?>
 				<li class="cat-item"><br /></li>
 			</ul>
