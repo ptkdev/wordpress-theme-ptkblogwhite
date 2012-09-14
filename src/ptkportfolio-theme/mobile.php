@@ -63,7 +63,7 @@
 		<div class="post_separator"> <hr /></div>
 		<div class="clear style-list">
 			<ul>
-				<li class="cat-item"><a href="#">Portoflio:</a></li> 
+				<li class="cat-item"><a href="#">Portfolio:</a></li> 
 					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/">&raquo; Home Page</a></li> 
 					<li class="cat-item"><a href="http://www.ptkdev.it/">&raquo; Blog</a></li> 
 					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/capacita-e-competenze/">&raquo; Capacità e Competenze</li>

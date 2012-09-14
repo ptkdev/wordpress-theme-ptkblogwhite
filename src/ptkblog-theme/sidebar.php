@@ -45,7 +45,7 @@
 					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/openftp/">&raquo; OpenFTP</a></li> 
 					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/disclaimer-del-blog/">&raquo; Disclaimer</a></li> 
 					<li class="cat-item"><br /></li> 
-					<li class="cat-item"><a href="#">Portoflio:</a></li> 
+					<li class="cat-item"><a href="#">Portfolio:</a></li> 
 					<li class="cat-item"><a href="http://portfolio.ptkdev.it/">&raquo; Chi Sono</a></li> 
 					<li class="cat-item"><a href="http://portfolio.ptkdev.it/contatti/">&raquo; Contatti</a> (<a href="http://portfolio.ptkdev.it/vcard/">vCard</a>)</li> 
 					<li class="cat-item"><br /></li> 
