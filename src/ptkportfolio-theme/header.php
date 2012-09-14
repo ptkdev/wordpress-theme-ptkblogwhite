@@ -1,6 +1,6 @@
 <?php 
 /*
- * PTKDevBlog (Wordpress Theme)
+ * PTKDevPortfolio (Wordpress Theme)
  *   Copyright (C) 2011  PTKDev
  *
  *  This program is free software: you can redistribute it and/or modify
@@ -18,9 +18,9 @@
  * 
 */
 ?>
-<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN" "http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
-<html>
-<head>
+<!DOCTYPE html> 
+<html dir="ltr" lang="it-IT"> 
+<head> 
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<title><?php wp_title(''); ?> <?php if(wp_title(' ', false)) { echo '&laquo;'; } ?> <?php bloginfo('name'); ?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
@@ -50,57 +50,50 @@
 	<link rel="shortcut icon" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/favicon.ico" />
 	<link rel="icon" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/favicon.png" type="image/png" />
 	<link rel="icon" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/favicon.ico" type="image/ico" />
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/mobile/layout.css" />
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/mobile/header.css" />
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/mobile/body.css" />
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/mobile/footer.css" />
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/mobile/link.css" />
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/layout.css" />
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/header.css" />
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/body.css" />
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/footer.css" />
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/link.css" />
 	
+	<link href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/wp-content/plugins/lightbox/css/lightbox.css" rel="stylesheet" type="text/css" media="screen" /> 
+	
+	<script src="http://<?php echo $_SERVER['SERVER_NAME']; ?>/wp-content/plugins/lightbox/js/prototype.js" type="text/javascript"></script> 
+	<script src="http://<?php echo $_SERVER['SERVER_NAME']; ?>/wp-content/plugins/lightbox/js/scriptaculous.js?load=effects,builder" type="text/javascript"></script> 
+	<script src="http://<?php echo $_SERVER['SERVER_NAME']; ?>/wp-content/plugins/lightbox/js/lightbox.js" type="text/javascript"></script>
+	<!--[if lt IE 7.]>
+	<script defer type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/pngfix.js"></script>
+	<![endif]-->
 	<?php
 		wp_head();
 	?>
 </head>
 
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/it_IT/all.js#xfbml=1&appId=418250221564638";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <div id="header_line"></div>
 <div id="logo">
 	<a class="title_blog" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/">
 		<div class="logo_font1">Patryk</div> 
 		<div class="logo_font2">Rzucidlo</div>
 		<div class="logo_separator"></div>
-		<div class="logo_font3">~ Blog</div>
+		<div class="logo_font3">~ Portfolio</div>
 	</a>
 </div>
 <div class="clear"></div>
 <div id="menu">
-	<div class="menu_line">
+	<div class="menu_line_sx">
 		<div class="menu_txt">
-			&nbsp;&nbsp;<a class="menu" href="http://portfolio.ptkdev.it/">Me</a>&nbsp;&nbsp;
-		</div>
-		<div class="height4"></div>
-	</div>
-	<div class="menu_line">
-		<div class="menu_txt">
-			&nbsp;&nbsp;<a class="menu" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/openftp/">OpenFTP</a>&nbsp;&nbsp;
-		</div>
-		<div class="height4"></div>
-	</div>
-	<div class="menu_line">
-		<div class="menu_txt">
-			&nbsp;&nbsp;<a class="menu" href="http://portfolio.ptkdev.it/contatti/">Contattami</a>&nbsp;&nbsp;
-		</div>
-		<div class="height4"></div>
-	</div>
-	<div class="menu_line">
-		<div class="menu_txt">
-			&nbsp;&nbsp;<a class="menu" href="http://twitter.com/ptkdev">Twitter</a>&nbsp;&nbsp;
-		</div>
-		<div class="height4"></div>
-	</div>
-	<div class="menu_line">
-		<div class="menu_txt">
-			&nbsp;&nbsp;<a class="menu" href="http://feeds.feedburner.com/ptkdevblog">RSS</a>&nbsp;&nbsp;
+			&nbsp;&nbsp;<a class="hello" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/">Benvenuti</a>&nbsp;&nbsp;
 		</div>
 		<div class="height4"></div>
 	</div>

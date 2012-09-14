@@ -40,13 +40,17 @@
 		</div><div class="sid_line"></div>
 			<div class="clear style-list">
 				<ul>
-					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/">Home:</a></li> 
-					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/chi-sono/">&raquo; Chi Sono</a></li> 
+					<li class="cat-item"><a href="#">Main:</a></li> 
+					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/">&raquo; Home Page</a></li> 
 					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/openftp/">&raquo; OpenFTP</a></li> 
-					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/contatti/">&raquo; Contattami</a> (<a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/vcard/">vCard</a>)</li> 
 					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/disclaimer-del-blog/">&raquo; Disclaimer</a></li> 
 					<li class="cat-item"><br /></li> 
-					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/">I Miei Post:</a></li> 
+					<li class="cat-item"><a href="#">Portoflio:</a></li> 
+					<li class="cat-item"><a href="http://portfolio.ptkdev.it/">&raquo; Chi Sono</a></li> 
+					<li class="cat-item"><a href="http://portfolio.ptkdev.it/contatti/">&raquo; Contatti</a> (<a href="http://vcard.ptkdev.it/">vCard</a>)</li> 
+					<li class="cat-item"><a href="http://cv.ptkdev.it/">&raquo; Curriculum Vitae</a></li> 
+					<li class="cat-item"><br /></li> 
+					<li class="cat-item"><a href="#">I Miei Post:</a></li> 
 					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/linux/">&raquo; Linux</a></li> 
 					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/android/">&raquo; Android</a></li> 
 					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/developing/">&raquo; Developing</a></li> 
@@ -60,7 +64,7 @@
 					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/changelog/">&raquo; Changelog</a></li> 
 					<?php //wp_list_categories('orderby=name&title_li='); ?>
 					<li class="cat-item"><br /></li>
-					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/">My Labs:</a></li> 
+					<li class="cat-item"><a href="#">My Labs:</a></li> 
 					<li class="cat-item"><a href="https://github.com/PTKDev/ClientTwitter-TwitCrusader">&raquo; GitHub/TwitCrusader</a></li> 
 					<li class="cat-item"><a href="https://github.com/PTKDev/ClientBlog-gWriter">&raquo; GitHub/gWriterBlog</a></li> 
 					<li class="cat-item"><a href="https://github.com/PTKDev/WordpressTheme-PTKDevBlog">&raquo; GitHub/WP-Theme PTKDevBlog</a></li> 

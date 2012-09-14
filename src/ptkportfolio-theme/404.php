@@ -1,5 +1,6 @@
+<?php 
 /*
- * PTKDevBlog (Wordpress Theme)
+ * PTKDevPortfolio (Wordpress Theme)
  *   Copyright (C) 2011  PTKDev
  *
  *  This program is free software: you can redistribute it and/or modify
@@ -16,45 +17,11 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  * 
 */
-
-html,body{
-	width: 100%;
-	min-width: 240px;
-	margin: 0 auto;
-	text-align: left;
-}
-
-ul{
-	list-style-type: none;
-	list-style-image: none;
-	padding: 0px;
-	margin: 0px;
-}
-
-img {
-	border: 0;
-	max-width: 100%;
-}
-
-embed {
-	width: 99%;
-	height: 280px;
-}
-
-object {
-	width: 99%;
-	height: 280px;
-}
-
-@font-face {
-        font-family: DejaVuSans_Import;
-        font-style: normal;
-        src: url("./../font/DejaVuSans.ttf") format("truetype");
-}
-
-@font-face {
-        font-family: DejaVuSansBold_Import;
-        font-style: normal;
-        font-weight: bold;
-        src: url("./../font/DejaVuSans-Bold.ttf") format("truetype");
-}
+?>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> 
+<html><head> 
+<title>404 Not Found</title> 
+</head><body> 
+<h1>Not Found</h1> 
+<p>The requested URL /assa was not found on this server.</p> 
+</body></html> 

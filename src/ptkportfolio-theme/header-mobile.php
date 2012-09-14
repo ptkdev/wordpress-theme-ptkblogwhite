@@ -1,6 +1,6 @@
 <?php 
 /*
- * PTKDevBlog (Wordpress Theme)
+ * PTKDevPortfolio (Wordpress Theme)
  *   Copyright (C) 2011  PTKDev
  *
  *  This program is free software: you can redistribute it and/or modify
@@ -69,26 +69,26 @@
 		<div class="logo_font1">Patryk</div> 
 		<div class="logo_font2">Rzucidlo</div>
 		<div class="logo_separator"></div>
-		<div class="logo_font3">~ Blog</div>
+		<div class="logo_font3">~ Portfolio</div>
 	</a>
 </div>
 <div class="clear"></div>
 <div id="menu">
 	<div class="menu_line">
 		<div class="menu_txt">
-			&nbsp;&nbsp;<a class="menu" href="http://portfolio.ptkdev.it/">Me</a>&nbsp;&nbsp;
+			&nbsp;&nbsp;<a class="menu" href="http://www.ptkdev.it/">Blog</a>&nbsp;&nbsp;
 		</div>
 		<div class="height4"></div>
 	</div>
 	<div class="menu_line">
 		<div class="menu_txt">
-			&nbsp;&nbsp;<a class="menu" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/openftp/">OpenFTP</a>&nbsp;&nbsp;
+			&nbsp;&nbsp;<a class="menu" href="http://cv.ptkdev.it/">CV</a>&nbsp;&nbsp;
 		</div>
 		<div class="height4"></div>
 	</div>
 	<div class="menu_line">
 		<div class="menu_txt">
-			&nbsp;&nbsp;<a class="menu" href="http://portfolio.ptkdev.it/contatti/">Contattami</a>&nbsp;&nbsp;
+			&nbsp;&nbsp;<a class="menu" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/contatti/">Contattami</a>&nbsp;&nbsp;
 		</div>
 		<div class="height4"></div>
 	</div>
@@ -100,7 +100,7 @@
 	</div>
 	<div class="menu_line">
 		<div class="menu_txt">
-			&nbsp;&nbsp;<a class="menu" href="http://feeds.feedburner.com/ptkdevblog">RSS</a>&nbsp;&nbsp;
+			&nbsp;&nbsp;<a class="menu" href="http://feeds.feedburner.com/PTKDevBlog">RSS</a>&nbsp;&nbsp;
 		</div>
 		<div class="height4"></div>
 	</div>

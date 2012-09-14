@@ -1,6 +1,6 @@
 <?php 
 /*
- * PTKDevBlog (Wordpress Theme)
+ * PTKDevPortfolio (Wordpress Theme)
  *   Copyright (C) 2011  PTKDev
  *
  *  This program is free software: you can redistribute it and/or modify
@@ -25,7 +25,7 @@
 
 	<div id="footer">
 		<div class="footer_font2">| <a href="http://www.ptkweb.it/">PatrykWeb</a> | <a href="http://www.ptkdev.it/">PTKDev</a> | <a href="http://it.twitcrusader.org/">TwitCrusader</a> | </div>
-		<div class="footer_font1">Patryk Rzucidlo Blog ~ Version 0.7.2</div>
+		<div class="footer_font1">Patryk Rzucidlo Portfolio ~ Version 0.8</div>
 		<div class="footer_font2">2010 ~ <?php echo date('Y')+1;?></div><br />
 	</div>
 	<script type="text/javascript">
