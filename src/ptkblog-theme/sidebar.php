@@ -21,6 +21,8 @@
 
 <div id="container">
 	<div id="sidebar">
+		
+		<!-- sep -->
 		<div class="sidebar_txt">
 		</div><div class="sid_line"></div>
 			<a href="http://www.facebook.com/ptkdev"><img src="<?php bloginfo('template_url'); ?>/img/desktop/fb.png" title="Patryk Rzucidlo Facebook" alt="Patryk Rzucidlo Facebook" /></a>
@@ -29,6 +31,11 @@
 			<a href="http://www.youtube.com/user/ptkdev"><img src="<?php bloginfo('template_url'); ?>/img/desktop/yt.png" title="Patryk Rzucidlo YouTube" alt="Patryk Rzucidlo YouTube" /></a>
 			<a href="http://feeds.feedburner.com/ptkdevblog"><img src="<?php bloginfo('template_url'); ?>/img/desktop/rss.png" title="Blog RSS" alt="Blog RSS" /></a>
 			<br /><div class="height4"></div>
+		
+		<!-- sep -->
+		<div class="sidebar_txt">
+		</div><div class="sid_line"></div>
+		<a href="<?php bloginfo('template_url'); ?>/img/patryk_rzucidlo_ptkdev_full.png" rel="lightbox"><img src="<?php bloginfo('template_url'); ?>/img/patryk_rzucidlo_ptkdev.png" /></a>
 		
 		<!-- sep -->
 		<div class="sidebar_txt">
@@ -71,6 +78,7 @@
 					<li class="cat-item"><a href="https://github.com/PTKDev/WordpressTheme-TwitCrusader">&raquo; GitHub/WP-Theme TwitCrusader</a></li> 
 					<li class="cat-item"><a href="https://github.com/PTKDev/WordpressTheme-TorEngine">&raquo; GitHub/WP-Theme TorEngine</a></li> 
 					<li class="cat-item"><a href="https://github.com/PTKDev/WordpressTheme-gWriter">&raquo; GitHub/WP-Theme gWriterBlog</a></li> 
+					<li class="cat-item"><a href="https://github.com/PTKDev/WordpressTheme-ChiaraDeLiberato.it">&raquo; GitHub/WP-Theme ChiaraDeLiberato.it</a></li>
 					<li class="cat-item"><a href="https://github.com/PTKDev/WordpressTheme-PatrykWeb2006">&raquo; GitHub/WP-Theme PatrykWeb2006 (Original)</a></li> 
 					<li class="cat-item"><a href="https://github.com/PTKDev/WordpressTheme-PatrykWeb2009Black">&raquo; GitHub/WP-Theme PatrykWeb2009 Black</a></li>
 					<li class="cat-item"><a href="https://github.com/PTKDev/Interface-UbuntuZillaGraphic">&raquo; GitHub/Interface UbuntuZillaGraphic</a></li>  
