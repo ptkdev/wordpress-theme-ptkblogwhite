@@ -50,78 +50,14 @@
 					<li class="cat-item"><a href="#">Portfolio:</a></li> 
 					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/">&raquo; Home Page</a></li> 
 					<li class="cat-item"><a href="http://www.ptkdev.it/">&raquo; Blog</a></li> 
+					<li class="cat-item"><a href="http://github.com/ptkdev">&raquo; GitHub</a></li> 
+					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/hobby/">&raquo; Hobby</li>
 					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/capacita-e-competenze/">&raquo; Capacità e Competenze</li>
 					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/esperienze-professionali/">&raquo; Esperienze Professionali</li>
 					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/contatti/">&raquo; Contatti</a> (<a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/vcard/">vCard</a>)</li> 
 					<li class="cat-item"><a href="http://cv.ptkdev.it/">&raquo; Curriculum Vitae</a></li> 
-					<?php //wp_list_categories('orderby=name&title_li='); ?>
-					<li class="cat-item"><br /></li>
-					<li class="cat-item"><a href="#">My Labs:</a></li> 
-					<li class="cat-item"><a href="https://github.com/PTKDev/ClientTwitter-TwitCrusader">&raquo; GitHub/TwitCrusader</a></li> 
-					<li class="cat-item"><a href="https://github.com/PTKDev/ClientBlog-gWriter">&raquo; GitHub/gWriterBlog</a></li> 
-					<li class="cat-item"><a href="https://github.com/PTKDev/WordpressTheme-PTKDevBlog">&raquo; GitHub/WP-Theme PTKDevBlog</a></li> 
-					<li class="cat-item"><a href="https://github.com/PTKDev/WordpressTheme-PTKTheBestBlog">&raquo; GitHub/WP-Theme PTKTheBestBlog</a></li> 
-					<li class="cat-item"><a href="https://github.com/PTKDev/WordpressTheme-TwitCrusader">&raquo; GitHub/WP-Theme TwitCrusader</a></li> 
-					<li class="cat-item"><a href="https://github.com/PTKDev/WordpressTheme-TorEngine">&raquo; GitHub/WP-Theme TorEngine</a></li> 
-					<li class="cat-item"><a href="https://github.com/PTKDev/WordpressTheme-gWriter">&raquo; GitHub/WP-Theme gWriterBlog</a></li> 
-					<li class="cat-item"><a href="https://github.com/PTKDev/WordpressTheme-ChiaraDeLiberato.it">&raquo; GitHub/WP-Theme ChiaraDeLiberato.it</a></li>
-					<li class="cat-item"><a href="https://github.com/PTKDev/WordpressTheme-PatrykWeb2006">&raquo; GitHub/WP-Theme PatrykWeb2006 (Original)</a></li> 
-					<li class="cat-item"><a href="https://github.com/PTKDev/WordpressTheme-PatrykWeb2009Black">&raquo; GitHub/WP-Theme PatrykWeb2009 Black</a></li>
-					<li class="cat-item"><a href="https://github.com/PTKDev/Interface-UbuntuZillaGraphic">&raquo; GitHub/Interface UbuntuZillaGraphic</a></li>  
-					<li class="cat-item"><a href="https://github.com/PTKDev/AndroidAPP-PTKDevBlog">&raquo; GitHub/APP-Android PTKDevBlog</a></li>
-					<li class="cat-item"><a href="https://github.com/PTKDev/AndroidAPP-TorEngine">&raquo; GitHub/APP-Android TorEngine</a></li>
-					<li class="cat-item"><a href="https://github.com/PTKDev/Scheme-GeanyBlack">&raquo; GitHub/Scheme Geany-Black</a></li>   
-					<li class="cat-item"><a href="https://github.com/PTKDev/Scheme-DelirioLogger">&raquo; GitHub/Scheme DelirioLogger</a></li>
-					<li class="cat-item"><a href="https://github.com/PTKDev/Tools-TorEngine_AuleLibere">&raquo; GitHub/Tools TorEngine (AuleLibere)</a></li> 
-					<li class="cat-item"><a href="https://github.com/PTKDev/Tools-TorEngine_HackingGame">&raquo; GitHub/Tools TorEngine (HackingGame)</a></li>   
-					<li class="cat-item"><a href="https://github.com/PTKDev/BashScript-YouTube2mp3">&raquo; GitHub/BashScript YouTube2mp3</a></li>
-					<li class="cat-item"><a href="https://github.com/PTKDev/OpenProtocol-phpHashAuth">&raquo; GitHub/OpenProtocol phpHashAuth</a></li>    
 				</ul><br />
 			</div>
-			
-		<!-- sep -->	
-		<div class="sidebar_txt">
-		</div><div class="sid_line"></div>
-			<div class="twitter">
-				<script src="http://widgets.twimg.com/j/2/widget.js"></script>
-				<script>
-				new TWTR.Widget({
-				  version: 2,
-				  type: 'profile',
-				  rpp: 7,
-				  interval: 6000,
-				  width: 250,
-				  height: 400,
-				  theme: {
-					shell: {
-					  background: '#cc0000',
-					  color: '#ffffff'
-					},
-					tweets: {
-					  background: '#ffffff',
-					  color: '#000000',
-					  links: '#000000'
-					}
-				  },
-				  features: {
-					scrollbar: false,
-					loop: false,
-					live: false,
-					hashtags: true,
-					timestamp: true,
-					avatars: true,
-					behavior: 'all'
-				  }
-				}).render().setUser('ptkdev').start();
-				</script>
-			</div><br />
-			
-		<!-- sep -->	
-		<div class="sidebar_txt">
-		</div><div class="sid_line"></div>
-			<iframe src="http://www.google.com/latitude/apps/badge/api?user=-6976504855383486339&amp;type=iframe&amp;maptype=roadmap&amp;hl=it" class="iframe"></iframe><br />
-		
-
 		<!-- sep -->	
 		<div class="sidebar_txt">
 		</div><div class="sid_line"></div>
