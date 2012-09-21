@@ -51,6 +51,7 @@
 					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/">&raquo; Home Page</a></li> 
 					<li class="cat-item"><a href="http://www.ptkdev.it/">&raquo; Blog</a></li> 
 					<li class="cat-item"><a href="http://github.com/ptkdev">&raquo; GitHub</a></li> 
+					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/openftp/">&raquo; OpenFTP</li>
 					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/hobby/">&raquo; Hobby</li>
 					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/capacita-e-competenze/">&raquo; Capacità e Competenze</li>
 					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/esperienze-professionali/">&raquo; Esperienze Professionali</li>
