@@ -24,7 +24,7 @@
 </div>
 
 <div id="footer">
-	<div class="footer_font1">Patryk Rzucidlo Blog ~ Version 0.8.1 (Mobile) </div>
+	<div class="footer_font1">Patryk Rzucidlo Blog ~ Version 0.8.2 (Mobile) </div>
 	<div class="footer_font2">2010 ~ <?php echo date('Y')+1;?></div><br />
 </div>
 <script type="text/javascript">

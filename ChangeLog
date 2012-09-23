@@ -1,3 +1,10 @@
+=================== 0.8.2 ===================
+~ Fixed: layout float issue
+~ Fixed: facebook/gplus share (correct image of post)
+~ Fixed: min-height content
+~ Improved new menu (mobile/desktop)
+~ Minor Fix
+
 =================== 0.8.1 ===================
 ~ Improved new menu (mobile and desktop)
 ~ Add image profile to blog/portfolio

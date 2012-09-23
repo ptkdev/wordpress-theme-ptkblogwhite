@@ -19,9 +19,7 @@
 */
 ?>
 
-<div id="container">
 	<div id="sidebar">
-		
 		<!-- sep -->
 		<div class="sidebar_txt">
 		</div><div class="sid_line"></div>
@@ -68,4 +66,6 @@
 			<a href="http://github.com/"><img src="<?php bloginfo('template_url'); ?>/img/desktop/github.png" title="GitHub" alt="GitHub" /></a>
 			<a href="http://www.kernel.org"><img src="<?php bloginfo('template_url'); ?>/img/desktop/linux.png" title="Kernel Linux" alt="Kernel Linux" /></a>
 	</div>
-
+	
+	<div class="clear"></div>
+</div>

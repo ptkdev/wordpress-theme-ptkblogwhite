@@ -34,8 +34,10 @@
 	padding-right: 10px;
 	margin-bottom: 15px;
 	width: 600px;
+	float: left;
 	/* text-align: justify; */
 	z-index: 1;
+	min-height: 600px;
 }
 
 #sidebar{
@@ -43,11 +45,12 @@
 	font-size: 14px;
 	color: #000000;
 	width: 270px;
-	float: right;
 	padding-left: 5px;
 	margin-bottom: 15px;
 	text-align: justify;
 	z-index: 10;
+	float: right;
+	margin-top: 14px;
 	position: relative;
 }
 

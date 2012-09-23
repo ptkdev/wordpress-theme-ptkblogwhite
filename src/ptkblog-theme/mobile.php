@@ -81,6 +81,7 @@
 				<li class="cat-item"><br /></li>
 				<li class="cat-item"><a href="#">Portfolio:</a></li> 
 				<li class="cat-item"><a href="http://portfolio.ptkdev.it/">&raquo; Chi Sono</a></li> 
+				<li class="cat-item"><a href="http://portfolio.ptkdev.it/openftp/">&raquo; OpenFTP</li>
 				<li class="cat-item"><a href="http://portfolio.ptkdev.it/contatti/">&raquo; Contatti</a> (<a href="http://portfolio.ptkdev.it/vcard/">vCard</a>)</li> 
 			</ul><br />
 		</div>

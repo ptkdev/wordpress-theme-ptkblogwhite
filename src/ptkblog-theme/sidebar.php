@@ -19,9 +19,7 @@
 */
 ?>
 
-<div id="container">
 	<div id="sidebar">
-		
 		<!-- sep -->
 		<div class="sidebar_txt">
 		</div><div class="sid_line"></div>
@@ -64,17 +62,20 @@
 					<li class="cat-item"><br /></li>
 					<li class="cat-item"><a href="#">Portfolio:</a></li> 
 					<li class="cat-item"><a href="http://portfolio.ptkdev.it/">&raquo; Chi Sono</a></li> 
+					<li class="cat-item"><a href="http://portfolio.ptkdev.it/openftp/">&raquo; OpenFTP</li>
 					<li class="cat-item"><a href="http://portfolio.ptkdev.it/contatti/">&raquo; Contatti</a> (<a href="http://portfolio.ptkdev.it/vcard/">vCard</a>)</li> 
 				</ul><br />
 			</div>
 		
 		<!-- sep -->	
-		<div class="sidebar_txt">
-		</div><div class="sid_line"></div>
+		<div class="sidebar_txt"></div>
+		<div class="sid_line"></div>
 			<a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/sitemap.xml"><img src="<?php bloginfo('template_url'); ?>/img/desktop/sitemap.png" title="SiteMap" alt="SiteMap" /></a>
 			<a href="http://www.w3.org/TR/html5/"><img src="<?php bloginfo('template_url'); ?>/img/desktop/html5.png" title="HTML5" alt="HTML5" /></a>
 			<a href="http://www.opensource.org/"><img src="<?php bloginfo('template_url'); ?>/img/desktop/opensource.png" title="OpenSource" alt="OpenSource" /></a>
 			<a href="http://github.com/"><img src="<?php bloginfo('template_url'); ?>/img/desktop/github.png" title="GitHub" alt="GitHub" /></a>
 			<a href="http://www.kernel.org"><img src="<?php bloginfo('template_url'); ?>/img/desktop/linux.png" title="Kernel Linux" alt="Kernel Linux" /></a>
-	</div>
 
+	</div>
+<div class="clear"></div>
+</div>

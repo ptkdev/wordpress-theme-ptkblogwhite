@@ -23,8 +23,8 @@
 	$mobi = $detect->isMobile();
 	if(!$mobi){
 		get_header();
-		get_sidebar(); 
-		get_template_part( 'desktop', 'index' );	
+		get_template_part( 'desktop', 'index' );
+		get_sidebar(); 	
 		get_footer(); 
 	}else{
 		get_header("mobile"); 
