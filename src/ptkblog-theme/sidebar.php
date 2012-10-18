@@ -33,7 +33,7 @@
 		<!-- sep -->
 		<div class="sidebar_txt">
 		</div><div class="sid_line"></div>
-		<a href="<?php bloginfo('template_url'); ?>/img/patryk_rzucidlo_ptkdev_full.png" rel="lightbox"><img src="<?php bloginfo('template_url'); ?>/img/patryk_rzucidlo_ptkdev.png" /></a>
+		<a href="<?php bloginfo('template_url'); ?>/img/patryk_rzucidlo_ptkdev_full.png" data-lightbox><img src="<?php bloginfo('template_url'); ?>/img/patryk_rzucidlo_ptkdev.png" /></a>
 		
 		<!-- sep -->
 		<div class="sidebar_txt">
@@ -62,7 +62,7 @@
 					<li class="cat-item"><br /></li>
 					<li class="cat-item"><a href="#">Portfolio:</a></li> 
 					<li class="cat-item"><a href="http://portfolio.ptkdev.it/">&raquo; Chi Sono</a></li> 
-					<li class="cat-item"><a href="http://portfolio.ptkdev.it/openftp/">&raquo; OpenFTP</li>
+					<li class="cat-item"><a href="http://portfolio.ptkdev.it/openftp/">&raquo; OpenFTP</a></li> 
 					<li class="cat-item"><a href="http://portfolio.ptkdev.it/contatti/">&raquo; Contatti</a> (<a href="http://portfolio.ptkdev.it/vcard/">vCard</a>)</li> 
 				</ul><br />
 			</div>

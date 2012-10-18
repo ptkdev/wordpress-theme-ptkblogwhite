@@ -33,7 +33,7 @@
 		<!-- sep -->
 		<div class="sidebar_txt">
 		</div><div class="sid_line"></div>
-		<a href="<?php bloginfo('template_url'); ?>/img/patryk_rzucidlo_ptkdev_full.png" rel="lightbox"><img src="<?php bloginfo('template_url'); ?>/img/patryk_rzucidlo_ptkdev.png" /></a>
+		<a href="<?php bloginfo('template_url'); ?>/img/patryk_rzucidlo_ptkdev_full.png" data-lightbox><img src="<?php bloginfo('template_url'); ?>/img/patryk_rzucidlo_ptkdev.png" /></a>
 		
 		<!-- sep -->
 		<div class="sidebar_txt">
@@ -49,10 +49,10 @@
 					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/">&raquo; Home Page</a></li> 
 					<li class="cat-item"><a href="http://www.ptkdev.it/">&raquo; Blog</a></li> 
 					<li class="cat-item"><a href="http://github.com/ptkdev">&raquo; GitHub</a></li> 
-					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/openftp/">&raquo; OpenFTP</li>
-					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/hobby/">&raquo; Hobby</li>
-					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/capacita-e-competenze/">&raquo; Capacità e Competenze</li>
-					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/esperienze-professionali/">&raquo; Esperienze Professionali</li>
+					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/openftp/">&raquo; OpenFTP</a></li> 
+					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/hobby/">&raquo; Hobby</a></li> 
+					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/capacita-e-competenze/">&raquo; Capacità e Competenze</a></li> 
+					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/esperienze-professionali/">&raquo; Esperienze Professionali</a></li> 
 					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/contatti/">&raquo; Contatti</a> (<a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/vcard/">vCard</a>)</li> 
 					<li class="cat-item"><a href="http://cv.ptkdev.it/">&raquo; Curriculum Vitae</a></li> 
 				</ul><br />

@@ -24,8 +24,8 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<title><?php wp_title(''); ?> <?php if(wp_title(' ', false)) { echo '&laquo;'; } ?> <?php bloginfo('name'); ?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
-	<meta name="generator" content="Geany IDE" />
 	
+	<!--
 	<meta name="author" content="Patryk Rzucidlo" />
 	<meta name="author-mail" content="ptkdev[at]gmail[dot]com" />
 	<meta name="author-msn" content="ptkdev[at]gmail[dot]com" />
@@ -37,12 +37,11 @@
 	
 	<meta name="copyright" content="GNU Affero General Public License" />
 	<meta name="source-code" content="https://github.com/PTKDev/WordpressTheme-PTKDevBlog" />
+	-->
 	
-	<meta name="distribution" content="global" />
 	<meta name="robots" content="index,follow" />
 	<meta name="revisit-after" content="3 days" />
 	<meta name="rating" content="general" />
-	<meta name="language" content="it" />
 	
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> - Feed RSS" href="http://feeds.feedburner.com/ptkdevblog" />
@@ -75,13 +74,8 @@
 <div id="menu">
 	<div class="menu_line">
 		<div class="menu_txt">
-			&nbsp;&nbsp;<a class="menu" href="http://portfolio.ptkdev.it/">Me</a>&nbsp;&nbsp;
-		</div>
-		<div class="height4"></div>
-	</div>
-	<div class="menu_line">
-		<div class="menu_txt">
-			&nbsp;&nbsp;<a class="menu" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/openftp/">OpenFTP</a>&nbsp;&nbsp;
+			&nbsp;&nbsp;<a class="menu" href="http://portfolio.ptkdev.it/openftp/">Portfolio</a>&nbsp;&nbsp;
+		
 		</div>
 		<div class="height4"></div>
 	</div>
