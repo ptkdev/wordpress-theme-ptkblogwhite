@@ -17,6 +17,12 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  * 
 */
+	if($_SERVER['SERVER_NAME'] == "portfolio.ptkdev.it"){
+		$HTTPID = 1;
+	}else{
+		$HTTPID = 2;
+	}
+	
 	include_once("mobile_detect.php");
 	$detect = new Mobile_Detect();
 	$mobi = $detect->isMobile();
