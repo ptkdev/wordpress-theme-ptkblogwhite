@@ -1,3 +1,8 @@
+=================== 0.9.1 ===================
+~ Fix: Error 404
+~ Fix: Mobile width
+~ Fix: More Links
+
 =================== 0.9 ===================
 ~ Porting: XHTML1.1 ---> HTML5
 ~ Porting: CSS2.1 ---> Full CSS3

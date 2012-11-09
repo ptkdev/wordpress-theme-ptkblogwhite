@@ -26,8 +26,8 @@
 		include_once("desktop-404.php");
 		include_once("footer.php");
 	}else{
-		include_once("header.php");
+		include_once("header-mobile.php");
 		include_once("mobile-404.php");
-		include_once("footer.php");
+		include_once("footer-mobile.php");
 	}
 ?>

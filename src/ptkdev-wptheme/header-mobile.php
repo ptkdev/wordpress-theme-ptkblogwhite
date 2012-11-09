@@ -63,7 +63,7 @@
 <div id="container">
 <div id="header_line"></div>
 <div id="logo">
-	<a class="title-blog" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/">
+	<a class="title-blog" href="<?php echo site_url(); ?>/">
 		<div class="logo_font1">Patryk</div> 
 		<div class="logo_font2 ">Rzucidlo</div>
 		<div class="logo_separator"></div>
@@ -86,7 +86,7 @@
 	</div>
 	<div class="menu_line_sx">
 		<div class="bgcolor-white align-left">
-			&nbsp;&nbsp;<a class="menu" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/contatti/">Contattami</a>&nbsp;&nbsp;
+			&nbsp;&nbsp;<a class="menu" href="http://portfolio.ptkdev.it/contatti/">Contattami</a>&nbsp;&nbsp;
 		</div>
 		<div class="height4"></div>
 	</div>

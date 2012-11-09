@@ -43,29 +43,29 @@
 				<ul>
 				<?php if($HTTPID == 1){ ?>
 					<li class="cat-item"><a href="#">Portfolio:</a></li> 
-					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/">&raquo; Home Page</a></li> 
+					<li class="cat-item"><a href="<?php echo site_url(); ?>/">&raquo; Home Page</a></li> 
 					<li class="cat-item"><a href="http://www.ptkdev.it/">&raquo; Blog</a></li> 
 					<li class="cat-item"><a href="http://github.com/ptkdev">&raquo; GitHub</a></li> 
-					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/openftp/">&raquo; OpenFTP</a></li> 
-					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/hobby/">&raquo; Hobby</a></li> 
-					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/capacita-e-competenze/">&raquo; Capacità e Competenze</a></li> 
-					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/esperienze-professionali/">&raquo; Esperienze Professionali</a></li> 
-					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/contatti/">&raquo; Contatti</a> (<a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/vcard/">vCard</a>)</li> 
+					<li class="cat-item"><a href="<?php echo site_url(); ?>/openftp/">&raquo; OpenFTP</a></li> 
+					<li class="cat-item"><a href="<?php echo site_url(); ?>/hobby/">&raquo; Hobby</a></li> 
+					<li class="cat-item"><a href="<?php echo site_url(); ?>/capacita-e-competenze/">&raquo; Capacità e Competenze</a></li> 
+					<li class="cat-item"><a href="<?php echo site_url(); ?>/esperienze-professionali/">&raquo; Esperienze Professionali</a></li> 
+					<li class="cat-item"><a href="http://portfolio.ptkdev.it/contatti/">&raquo; Contatti</a> (<a href="<?php echo site_url(); ?>/vcard/">vCard</a>)</li> 
 					<li class="cat-item"><a href="http://cv.ptkdev.it/">&raquo; Curriculum Vitae</a></li> 
 				<?php }else{ ?>
 					<li class="cat-item"><a href="#">Blog:</a></li> 
-					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/">&raquo; Home Page</a></li>  
-					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/linux/">&raquo; Linux</a></li> 
-					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/android/">&raquo; Android</a></li> 
-					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/developing/">&raquo; Developing</a></li> 
-					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/tecnologia/">&raquo; Tecnologia</a></li> 
-					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/social-network/">&raquo; SocialNetwork</a></li> 
-					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/musicavideo/">&raquo; Musica/Video</a></li> 
-					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/pensieri/">&raquo; Pensieri</a></li> 
-					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/poesie/">&raquo; Poesie</a></li> 
-					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/citazioni/">&raquo; Citazioni</a></li> 
-					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/tanto-per-postare/">&raquo; Tanto Per Postare</a></li> 
-					<li class="cat-item"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/menu/changelog/">&raquo; Changelog</a></li> 
+					<li class="cat-item"><a href="<?php echo site_url(); ?>/">&raquo; Home Page</a></li>  
+					<li class="cat-item"><a href="<?php echo site_url(); ?>/menu/linux/">&raquo; Linux</a></li> 
+					<li class="cat-item"><a href="<?php echo site_url(); ?>/menu/android/">&raquo; Android</a></li> 
+					<li class="cat-item"><a href="<?php echo site_url(); ?>/menu/developing/">&raquo; Developing</a></li> 
+					<li class="cat-item"><a href="<?php echo site_url(); ?>/menu/tecnologia/">&raquo; Tecnologia</a></li> 
+					<li class="cat-item"><a href="<?php echo site_url(); ?>/menu/social-network/">&raquo; SocialNetwork</a></li> 
+					<li class="cat-item"><a href="<?php echo site_url(); ?>/menu/musicavideo/">&raquo; Musica/Video</a></li> 
+					<li class="cat-item"><a href="<?php echo site_url(); ?>/menu/pensieri/">&raquo; Pensieri</a></li> 
+					<li class="cat-item"><a href="<?php echo site_url(); ?>/menu/poesie/">&raquo; Poesie</a></li> 
+					<li class="cat-item"><a href="<?php echo site_url(); ?>/menu/citazioni/">&raquo; Citazioni</a></li> 
+					<li class="cat-item"><a href="<?php echo site_url(); ?>/menu/tanto-per-postare/">&raquo; Tanto Per Postare</a></li> 
+					<li class="cat-item"><a href="<?php echo site_url(); ?>/menu/changelog/">&raquo; Changelog</a></li> 
 					<li class="cat-item"><br /></li>
 					<li class="cat-item"><a href="#">Portfolio:</a></li> 
 					<li class="cat-item"><a href="http://portfolio.ptkdev.it/">&raquo; Chi Sono</a></li> 
@@ -76,7 +76,7 @@
 			</nav>	
 		<div class="align-left z-index0">
 		</div><div class="sidebar-line"></div>
-			<a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/sitemap.xml"><img src="<?php bloginfo('template_url'); ?>/img/desktop/sitemap.png" title="SiteMap" alt="SiteMap" /></a>
+			<a href="<?php echo site_url(); ?>/sitemap.xml"><img src="<?php bloginfo('template_url'); ?>/img/desktop/sitemap.png" title="SiteMap" alt="SiteMap" /></a>
 			<a href="http://www.w3.org/TR/html5/"><img src="<?php bloginfo('template_url'); ?>/img/desktop/html5.png" title="HTML5" alt="HTML5" /></a>
 			<a href="http://www.opensource.org/"><img src="<?php bloginfo('template_url'); ?>/img/desktop/opensource.png" title="OpenSource" alt="OpenSource" /></a>
 			<a href="http://github.com/"><img src="<?php bloginfo('template_url'); ?>/img/desktop/github.png" title="GitHub" alt="GitHub" /></a>

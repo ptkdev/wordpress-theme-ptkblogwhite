@@ -39,5 +39,6 @@ FileETag None
 
 Header unset Cookie
 Header unset Set-Cookie
+#SetEnv session.cookie_domain cdn1.ptkdev.it
 SetEnv session.cookie_domain cdn2.ptkdev.it
 Header set Set-Cookie "240plan=true; expires=Sat, 01-Jan-2011 00:00:00; path=/;"

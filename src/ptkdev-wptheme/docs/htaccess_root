@@ -37,6 +37,7 @@ Header set Cache-Control "max-age=0, must-revalidate"
 
 FileETag None
 
+#SetEnv session.cookie_domain www.ptkdev.it
 SetEnv session.cookie_domain portfolio.ptkdev.it
 
 <Files wp-config.php>
