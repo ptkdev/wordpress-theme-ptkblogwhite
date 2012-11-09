@@ -1,6 +1,6 @@
-#PTKDevBlog (Wordpress Theme)
+#PTKDev.it (Wordpress Theme)
 
-PTKDevBlog (Wordpress Theme) is official wordpress theme of http://www.ptkdev.it/
+PTKDev.it (Wordpress Theme) is official wordpress theme of http://www.ptkdev.it/
 
 ## How to Install
 

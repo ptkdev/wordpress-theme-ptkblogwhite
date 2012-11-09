@@ -1,0 +1,43 @@
+/*
+ * PTKDev.it (Wordpress Theme)
+ *   Copyright (C) 2011  PTKDev
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU Affero General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *  
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU Affero General Public License for more details.
+ *  
+ *  You should have received a copy of the GNU Affero General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ * 
+*/
+
+.bgcolor-blue, .sidebar-line, .sidebar-line, .footer_line, .sidebar-line, .menu_line_sx{
+	background-color: #1C83CE;
+}
+
+.color-blue, .footer_font2, .logo_font1{
+	color: #1C83CE;
+}
+
+#header_line{
+	background-image: url("./../img/desktop/header_line_blue.png"); 
+	background-repeat: repeat-x; 
+	height: 16px; 
+}
+
+.github-fork{
+	background-image: url("./../img/desktop/forkme_github_blue.png"); 
+	background-repeat: repeat-x; 
+	position: absolute; 
+	width: 142px;
+	height: 142px;
+	top: 0; 
+	right: 0; 
+	border: 0; z-index: 5;
+}

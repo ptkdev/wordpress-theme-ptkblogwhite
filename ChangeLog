@@ -1,3 +1,15 @@
+=================== 0.9 ===================
+~ Porting: XHTML1.1 ---> HTML5
+~ Porting: CSS2.1 ---> Full CSS3
+~ Improved: static content files (cdn)
+~ Improved: cookie free
+~ Improved: css on 1 line and 1 css file
+~ Improved: js on bottom
+~ Improved: Etag
+~ Improved: Expires headers
+~ Improved: SpeedPage and Cache
+~ Unified: Blog and Portfolio Theme
+
 =================== 0.8.2 ===================
 ~ Fixed: layout float issue
 ~ Fixed: facebook/gplus share (correct image of post)

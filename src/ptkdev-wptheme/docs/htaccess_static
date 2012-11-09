@@ -1,0 +1,43 @@
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript application/rss+xml
+SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip dont-vary
+SetEnvIfNoCase Request_URI \.(?:exe|t?gz|zip|bz2|)$ no-gzip dont-vary
+SetEnvIfNoCase Request_URI \.pdf$ no-gzip dont-vary
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4\.0[678] no-gzip
+BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+
+AddType image/x-icon .ico
+
+ExpiresActive On
+ExpiresDefault "now"
+ExpiresByType text/html "now"
+ExpiresByType text/xml "now"
+ExpiresByType text/php "access plus 1 years"
+ExpiresByType text/css "access plus 1 years"
+ExpiresByType text/javascript "access plus 1 years"
+ExpiresByType application/javascript "access plus 1 years"
+ExpiresByType application/x-javascript "access plus 1 years"
+ExpiresByType text/ecmascript "access plus 1 years"
+ExpiresByType image/gif "access plus 1 years
+ExpiresByType image/png "access plus 1 years"
+ExpiresByType image/jpeg "access plus 1 years"
+ExpiresByType image/ico "access plus 1 years"
+ExpiresByType image/icon "access plus 1 years"
+ExpiresByType image/x-icon "access plus 1 years"
+ExpiresByType video/x-flv "access plus 1 years"
+ExpiresByType video/quicktime "access plus 1 years"
+ExpiresByType application/x-shockwave-flash "access plus 1 years"
+ExpiresByType application/pdf "access plus 1 years"
+<FilesMatch "\.(png|jpg|jpeg|gif|css|flv|ico)$">
+Header set Cache-Control "max-age=290304000, public"
+</FilesMatch>
+<FilesMatch "\.(php|html)$">
+Header set Cache-Control "max-age=0, must-revalidate"
+</FilesMatch>
+
+FileETag None
+
+Header unset Cookie
+Header unset Set-Cookie
+SetEnv session.cookie_domain cdn2.ptkdev.it
+Header set Set-Cookie "240plan=true; expires=Sat, 01-Jan-2011 00:00:00; path=/;"
