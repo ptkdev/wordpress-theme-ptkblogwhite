@@ -1,7 +1,9 @@
-=================== 0.9.1/2 ===================
+=================== 0.9.1/2/3 ===================
 ~ Fix: Error 404
 ~ Fix: Mobile width
 ~ Fix: More Links
+~ Fix: Mobile Texts
+~ Fix: Project Ttle (in License)
 
 =================== 0.9 ===================
 ~ Porting: XHTML1.1 ---> HTML5

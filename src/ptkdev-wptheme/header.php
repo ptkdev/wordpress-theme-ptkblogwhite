@@ -1,6 +1,6 @@
 <?php 
 /*
- * PTKDev Blog (Wordpress Theme)
+ * PTKDev.it (Wordpress Theme)
  *   Copyright (C) 2011  PTKDev
  *
  *  This program is free software: you can redistribute it and/or modify

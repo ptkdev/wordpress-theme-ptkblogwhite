@@ -1,6 +1,6 @@
 <?php 
 /*
- * PTKDev Blog (Wordpress Theme)
+ * PTKDev.it (Wordpress Theme)
  *   Copyright (C) 2011  PTKDev
  *
  *  This program is free software: you can redistribute it and/or modify
@@ -67,7 +67,7 @@
 		<div class="logo_font1">Patryk</div> 
 		<div class="logo_font2 ">Rzucidlo</div>
 		<div class="logo_separator"></div>
-		<div class="logo_font3">~ Blog</div>
+		<div class="logo_font3">~ <?php if($HTTPID == 1){ echo "Portfolio"; }else{ echo "Blog"; }?></div>
 	</a>
 </div>
 <div class="clear"></div>

@@ -1,6 +1,6 @@
 <?php 
 /*
- * PTKDev Blog (Wordpress Theme)
+ * PTKDev.it (Wordpress Theme)
  *   Copyright (C) 2011  PTKDev
  *
  *  This program is free software: you can redistribute it and/or modify
@@ -27,7 +27,7 @@
 
 	<div id="footer">
 		<div class="footer_font1">| <a href="http://www.ptkweb.it/">PatrykWeb</a> | <a href="<?php echo site_url(); ?>/disclaimer.txt">Disclaimer</a> | <a href="<?php echo site_url(); ?>/privacy.txt">Privacy</a> | <a href="<?php echo site_url(); ?>/license.txt">License</a> |</div>
-		<div class="footer_font2">Patryk Rzucidlo <?php if($HTTPID == 1){ echo "Portfolio"; }else{ echo "Blog"; }?> (Mobile) ~ v0.9.2</div>
+		<div class="footer_font2">Patryk Rzucidlo <?php if($HTTPID == 1){ echo "Portfolio"; }else{ echo "Blog"; }?> (Mobile) ~ v0.9.3</div>
 		<div class="footer_font3">2010 ~ <?php echo date('Y')+1;?></div><br />
 	</div>
 	<div id="fb-root"></div>
