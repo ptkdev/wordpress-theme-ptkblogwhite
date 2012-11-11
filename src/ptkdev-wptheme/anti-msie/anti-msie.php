@@ -21,10 +21,10 @@
 	<?php 
 		include_once("jquery.php");
 		$browser_lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-		if(file_exists("anti-msie/po/$browser_lang.php"))
-			include_once("anti-msie/po/$browser_lang.php"); 
+		if(file_exists("po/$browser_lang.php"))
+			include_once("po/$browser_lang.php"); 
 		else
-			include_once("anti-msie/po/en.php"); 
+			include_once("po/en.php"); 
 	?>
 	<div id="anti-msie" data-role="popup" data-history="false" >
 		<p>
