@@ -29,7 +29,9 @@
 			<div class="size11px">
 				<?php if(!is_page()) { ?>
 				<b>Tags:</b> <?php the_tags(""," • "," "); ?>
-				<?php } ?>
+				<?php if($HTTPID != 1){ ?>
+					<br /><br /><div class="align-right">Scritto il <?php the_time('j/m/Y'); ?> da: <a class="author" href="<?php the_author_url(); ?>"><?php the_author_nickname(); ?></a> | <a class="author" href="<?php the_permalink() ?>#comments">Commenta</a></div>
+				<?php } } ?>
 			</div><br />
 			<?php if(is_single()) { ?>
 				<div id="comments"></div>

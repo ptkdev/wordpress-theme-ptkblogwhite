@@ -38,6 +38,10 @@
 	<meta name="copyright" content="GNU Affero General Public License" />
 	<meta name="source-code" content="https://github.com/PTKDev/WordpressTheme-PTKDevBlog" />
 	-->
+	<!--[if IE]>
+	<script src="<?php bloginfo('template_url'); ?>/js/html5shiv.js"></script>
+	<script src="<?php bloginfo('template_url'); ?>/js/pngfix.js" defer type="text/javascript"></script>
+	<![endif]-->
 	
 	<meta name="robots" content="index,follow" />
 	<meta name="revisit-after" content="3 days" />
@@ -77,12 +81,9 @@
 		</div>
 		<div class="clear"></div>
 		<div id="menu">
-			<div class="menu_line_sx">
-				<div class="bgcolor-white align-left">
-					&nbsp;&nbsp;<a class="hello" href="<?php echo site_url(); ?>/">Benvenuti</a>&nbsp;&nbsp;
-				</div>
-				<div class="height4"></div>
+			<a class="hello" href="<?php echo site_url(); ?>/">Benvenuti</a>
+			<div id="hello_line">
+				<div class="hello_line"></div>
 			</div>
 		</div>
-		<div id="menu_line"></div>
 	</header>
