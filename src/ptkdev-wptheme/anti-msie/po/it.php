@@ -16,7 +16,7 @@
  *   You should have received a copy of the GNU Affero General Public License
  *   along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-$msie_lang = "Questo sito non è completamente compatibile con Internet Explorer perchè questo browser:<br /><br />
+$msie_lang = "Questo sito non è completamente compatibile con Internet Explorer perchè questo browser è:<br /><br />
 			  - Poco sicuro (vulnerabile ai virus)<br />
 			  - Non usa le ultime tecnologie web<br />
 			  - È molto lento nel caricare le pagine.<br /><br />

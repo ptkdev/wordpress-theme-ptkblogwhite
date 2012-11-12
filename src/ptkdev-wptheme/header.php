@@ -63,7 +63,7 @@
 	
 	<link href="<?php echo content_url(); ?>/plugins/lightbox/css/lightbox.css" rel="stylesheet" />
 	<?php
-		wp_head();
+		wp_head();z
 	?>
 </head>
 
