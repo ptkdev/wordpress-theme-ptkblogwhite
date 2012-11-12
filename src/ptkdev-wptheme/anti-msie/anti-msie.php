@@ -1,3 +1,4 @@
+<!-- Anti-MSIE (jQuery Popup) v0.1.2 | Download: https://github.com/PTKDev/Tools-AntiMSExplorer -->
 <!--[if IE]>
 <link rel="stylesheet" href="<?php echo $antimsie_path; ?>anti-msie/css/anti-msie.css" />
 <script type="text/javascript" src="<?php echo $antimsie_path; ?>anti-msie/js/anti-msie.js"></script>
